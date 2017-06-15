@@ -12,6 +12,7 @@ end
 
 service "httpd" do
   action [ :enable, :start ]
+  subscribes :restart, "template[httpd.conf]"
 end
 
 template "httpd.conf" do

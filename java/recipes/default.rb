@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-package "java" do
+package "java-1.7.0-openjdk" do
   action :remove
 end
 
